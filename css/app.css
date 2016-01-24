@@ -16,3 +16,32 @@ body {
 .top-bar-right a{
     color: white;
 }
+
+/**********************************************HEADERS*********************************************************************************/
+
+.headerz{
+    background-image: url(assets/backgrounds/hero.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.headerz h4{
+        margin-top: 14%;
+    font-size: 4em;
+    color: white;
+}
+
+.headerz h6{
+        color: white;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
