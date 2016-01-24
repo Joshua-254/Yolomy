@@ -71,3 +71,6 @@ margin-top: 10%;
 .men-products .column div {
    height: 70%;
 }*/
+.thumbnail{
+    box-shadow: 0;
+}
