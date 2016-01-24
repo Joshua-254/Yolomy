@@ -47,6 +47,7 @@ body {
 
 
 .see-products{
+
     padding-top: 2%;
 /*    padding-bottom: 2%;*/
     background-color: bisque;
@@ -61,5 +62,12 @@ body {
 /*********************************************MEN.PRODUCTS********************************************************************************/
 
 .men-products{
+      margin-left: 5%;
+    margin-right: 5%;
 margin-top: 10%;
 }
+
+/*
+.men-products .column div {
+   height: 70%;
+}*/
