@@ -72,5 +72,14 @@ margin-top: 10%;
    height: 70%;
 }*/
 .thumbnail{
-    box-shadow: 0;
+    box-shadow: none;
+}
+
+
+
+
+.dropdown.menu .is-dropdown-submenu-parent.is-down-arrow > a::after {
+
+    top: 21px;
+
 }
