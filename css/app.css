@@ -1,85 +1,125 @@
 /******************************************************************GENERAL*********************************************************************************/
 
 body {
-  background: white;
-  color: #888;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: white;
+    color: #888;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.top-bar{
-    background-color:transparent;
+.top-bar {
+    background-color: transparent;
     color: white;
 }
- .top-bar h2{
+.top-bar h2 {
     background-color: transparent;
-     color: white;
+    color: white;
 }
-.top-bar-right a{
+.top-bar-right a {
     color: white;
 }
 
 /**********************************************HEADERS*********************************************************************************/
 
-.headerz{
+
+/*typing effect*/
+
+@-webkit-keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 16.3em
+    }
+}
+@-moz-keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 16.3em
+    }
+}
+@-webkit-keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: black
+    }
+}
+@-moz-keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: black
+    }
+}
+body {
+    font-family: Consolas, monospace;
+}
+h1 {
+    font-size: 150%;
+    width: 16.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .1em solid black;
+    -webkit-animation: typing 17s steps(30, end), /* # of steps = # of characters */
+    blink-caret 1s step-end infinite;
+    -moz-animation: typing 17s steps(30, end), /* # of steps = # of characters */
+    blink-caret 1s step-end infinite;
+}
+
+/*end of it */
+
+.headerz {
     background-image: url(assets/backgrounds/hero.jpg);
     background-size: 100% 100%;
     text-align: center;
 }
-
-.headerz h4{
-        margin-top: 14%;
+.headerz h4 {
+    margin-top: 14%;
     font-size: 4em;
     color: white;
 }
-
-.headerz h6{
-        color: white;
+.headerz h6 {
+    color: white;
     margin-top: 5%;
 }
-
-
-.arrowb img{
+.arrowb img {
     margin-top: 13%;
     margin-bottom: 5%;
 }
 
-
 /*********************************************PRODUCTS********************************************************************************/
 
-
-.see-products{
-
+.see-products {
     padding-top: 2%;
-/*    padding-bottom: 2%;*/
+    /*    padding-bottom: 2%;*/
     background-color: bisque;
 }
-
-.button-group .prod{
-   float:right;
+.button-group .prod {
+    float: right;
     background-color: brown;
 }
 
-
 /*********************************************MEN.PRODUCTS********************************************************************************/
 
-.men-products{
-      margin-left: 5%;
+.men-products {
+    margin-left: 5%;
     margin-right: 5%;
-margin-top: 10%;
+    margin-top: 10%;
 }
 
 /*
 .men-products .column div {
    height: 70%;
 }*/
-.thumbnail{
+
+.thumbnail {
     box-shadow: none;
 }
-
-
-
-
 .dropdown.menu .is-dropdown-submenu-parent.is-down-arrow > a::after {
-
     top: 21px;
-
 }
